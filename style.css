@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #141519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.thankscard{
+    display: none;
+}
+
+.ratingcard{
+    background-color: #1E252F;
+    width: 420px;
+    height: 455px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-evenly;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.ratingcard .star{
+    background-color: #292E34;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px 0;
+}
+.ratingcard .content .title{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ratingcard .content .text{
+    color: white;
+    size: 25px;
+    font-size: 18px;
+    opacity: 60%;
+    font-size: 300;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+.ratingcard .nbrs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ratingcard .nbrs button{
+    background-color:  #292E34;
+    border:  #292E34;
+    width: 15%;
+    height: 20%;
+    border-radius: 50%;
+    padding : 4%;  
+     
+}
+.nbrs button:hover{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;  
+}
+.ratingcard .nbrs p {
+    color: #7B848D;
+    opacity: 100%;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+.submit button{
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 350px;
+    height: 50px;
+    border: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    font-size: 18px;
+    letter-spacing: 2px; 
+}
+.submit button:hover{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.thankscard{
+    background-color: #1E252F;
+    width: 420px;
+    height: 455px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thankscard .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.thankscard .pic{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 162;
+    height: 108;
+}
+.thankscard .content #selection{
+    background-color: #292E34;
+    padding: 8px;
+    color: hsl(25, 97%, 53%);
+    width: 50%;
+    border-radius: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+}
+.thankscard .content .thanks{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+.thankscard .content .thankstext{
+    color: white;
+    size: 17px;
+    opacity: 60%;
+    font-size: 300;
+    line-height: 30px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.thankscard {
+    display: none;
+}
+
+
+.errormsg {
+    font-size: 14px;
+    color:hsl(25, 97%, 53%);
+    text-align: center;
+}
+
+.errorbox {
+    display: none;
+}
